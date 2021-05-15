@@ -14,88 +14,23 @@ body{
     padding-top: 10px;
     margin-left: 10px;
     border-radius: 38px;
-
-   }
-#toppara{
-
-text-align: center;
-font-size: 16px;
-
-}
-#heading{
-    text-align: center;
-    
-    color: blue;
-    font-size: 26px;
-    
-}
-#slideshowtop{
-
-    text-align: center;
-    color: rgb(65, 47, 59);
-    transition: 2s; 
-    /* DON'T KNOW WHY MOTION IS NOT SHOWING USING TRANSITION */
-    
-}
-.nevbar{
-    display:flex;
-    border-radius: 8px;
-background-color: rgb(231, 200, 98);
-list-style-type:none;
-padding: 5px;
-margin: 7px;
-
-
-
-}
-.nevbar ul{
-    list-style-type: none;
-    display: flex;
-}
-.nevbar li a{
-text-decoration: none;
-padding: 15px;
-font-size: 20px;
-
-}
-#picword{
-background-image: url(covid.jpeg);
-height: 550px;
-background-size: cover;
-margin-bottom: 8px;
-text-align: end;
-}
-
-#reg1{
-    align-items: flex-end;
-}
-#reg2{
-    align-items: flex-end;
-}
-.vid{
-    display: inline-flex;
-    padding-left: 1050.6px;
-    float: left;
-    width: 1126.3px;
-    height: 50px;
-}  
-   
-
-  
-
-#toppara{
-display:inline;
-
 }
 footer{
     padding: 22px;
     padding-left: 425px;
 }
-.body{
-    width: 45%;
-    display: inline-flex;
-    
+
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
 }
-.section{
-    
+button{
+    background-color: darkblue;
+    color: white;
+    font: bold;
+    font-size: medium;
+    font-weight: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 32px;
 }
