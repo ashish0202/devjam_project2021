@@ -15,6 +15,27 @@ body{
     margin-left: 10px;
     border-radius: 38px;
 }
+#toppara{
+
+    text-align: center;
+    font-size: 16px;
+    
+    }
+    #heading{
+        text-align: center;
+        
+        color: blue;
+        font-size: 26px;
+        
+    }
+    #slideshowtop{
+    
+        text-align: center;
+        color: rgb(65, 47, 59);
+        transition: 2s; 
+        /* DON'T KNOW WHY MOTION IS NOT SHOWING USING TRANSITION */
+        
+    }
 footer{
     padding: 22px;
     padding-left: 425px;
@@ -24,6 +45,10 @@ section{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
+    padding-left: 10px;
+    background-image: url(covid.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 button{
     background-color: darkblue;
