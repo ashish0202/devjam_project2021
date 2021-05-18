@@ -5,7 +5,7 @@ body{
 }
 
 #header{
-    margin-top: -39px;
+    margin-top: 39px;
 }
 #logo {
     float: left;
@@ -42,8 +42,8 @@ font-size: 16px;
     border-radius: 8px;
 background-color: rgb(231, 200, 98);
 list-style-type:none;
-padding: 5px;
-margin: 7px;
+padding: 0px;
+margin: 0px;
 
 
 
@@ -53,9 +53,12 @@ margin: 7px;
     display: flex;
 }
 .nevbar li a{
+    
 text-decoration: none;
-padding: 15px;
-font-size: 20px;
+padding: 7px;
+/* keep it 15px if not perfectly visible */
+font-size: 17px;
+/* keep it 20px if not perfectly visibl */
 
 }
 #picword{
@@ -72,15 +75,30 @@ text-align: end;
 #reg2{
     align-items: flex-end;
 }
-.vid{
-    display: flex;
+#vidcontent{
+    display:inline-flex;
 }  
-   
+.vid{
+    display:flex;
+    margin-right: 68px;
 
-  
+}
 
-#toppara{
-display:inline;
+#vidside{
+display:inline-grid;
+background-color: orange;
+border: 5px;
+border-radius: 14px
+}
+#vidlink{
+    text-decoration-line: underline;
+    padding: 12px
+}
+#vidside ul li a{
+    text-decoration-color: white;
+}
+#vidside ul li a:hover{
+    color: beige;
 
 }
 footer{
