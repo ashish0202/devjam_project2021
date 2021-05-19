@@ -1,5 +1,5 @@
 .box{
-    height: 400px;
+    height: 500px;
     width: 400px;
     padding: 20px;
     margin: 0;
@@ -24,6 +24,7 @@ header{
 img{
     height: 150px;
     width: 400px;
+    border-radius: 12px;
 }
 h3{
     text-align: center;
@@ -42,8 +43,25 @@ input{
     width: 90%;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
+    border-radius: 12px;
+    color: rgb(180, 219, 247);
     
 }
 form{
     padding: 50px;
+}
+*{
+    background-image: url(cdc-mSfnuqwcQ-Q-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+#Submit{
+    width: 20vw;
+    height: 10vh;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border-radius: 12px;
+
 }
