@@ -171,7 +171,7 @@ margin-right:890px;
     color: rgb(12, 6, 17);
 }
 #link1{
-     color: rgb(0, 225, 255);
+    color: rgb(0, 225, 255);
     border:solid rgb(0, 255, 221);
     background-color: white;
     border-radius: 9px;
@@ -255,7 +255,22 @@ padding: 8px;
     color: red;
 text-decoration-line: overline;
 font-size: 34px;
-
+}
+#plasma{
+    background-image: url(plasma.jpg);
+    
+}
+#plasma a{
+    color: rgb(231, 208, 2);
+}
+#plasma a:hover{
+    color: rgb(41, 185, 161);
+}
+#newsletter{
+    border: solid 4px hotpink;
+  
+    background-image: url(query.jpg);
+    
 }
 footer{
     padding: 21px;
