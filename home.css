@@ -5,22 +5,22 @@ body{
 }
 
 #header{
-    margin-top: -39px;
+    margin-top: 39px;
 }
 #logo {
     float: left;
-     
+    
     width: 126px;
     padding-top: 10px;
     margin-left: 10px;
     border-radius: 38px;
-
-   }
+    
+}
 #toppara{
 
-text-align: center;
-font-size: 16px;
-
+    text-align: center;
+    font-size: 16px;
+    
 }
 #heading{
     text-align: center;
@@ -30,20 +30,35 @@ font-size: 16px;
     
 }
 #slideshowtop{
-
+    
     text-align: center;
     color: rgb(65, 47, 59);
     transition: 2s; 
-    /* DON'T KNOW WHY MOTION IS NOT SHOWING USING TRANSITION */
+    /* when  first time website is opened then transition will work like it will come pop-out like  */
     
+}
+.liveupdates{
+    border: solid red;
+    border-radius: 9px;
+margin-right: 400px;
+margin-left: 430px;
+    font-size: 22px;
+    text-align: center;
+    background-color: rgb(223, 201, 184);
+}
+.liveupdates a{
+    color: brown;
+}
+.liveupdates a:hover{
+    color: rgb(240, 255, 246);
 }
 .nevbar{
     display:flex;
     border-radius: 8px;
-background-color: rgb(231, 200, 98);
-list-style-type:none;
-padding: 5px;
-margin: 7px;
+    background-color: rgb(247, 214, 108);
+    list-style-type:none;
+padding: 0px;
+margin: 0px;
 
 
 
@@ -53,10 +68,16 @@ margin: 7px;
     display: flex;
 }
 .nevbar li a{
-text-decoration: none;
-padding: 15px;
-font-size: 20px;
 
+text-decoration: none;
+padding: 7px;
+/* keep it 15px if not perfectly visible */
+font-size: 17px;
+/* keep it 20px if not perfectly visibl */
+
+}
+.nevbar li a:hover{
+    color: white;
 }
 #picword{
 background-image: url(covid.jpeg);
@@ -72,18 +93,172 @@ text-align: end;
 #reg2{
     align-items: flex-end;
 }
-.vid{
-    display: flex;
+#vidcontent{
+    display:inline-flex;
+    margin-bottom: 39px;
 }  
+.vid{
+    display:flex;
+    margin-right: 68px;
+
+}
+
+#vidside{
+display:inline-grid;
+background-color: orange;
+border: 5px;
+border-radius: 14px
+}
+#vidlink{
+    text-decoration-line: underline;
+    padding: 12px
+}
+#vidside ul li a{
+    text-decoration-color: rgb(231, 35, 35);
+    color: white;
+
+}
+#vidside ul li a:hover{
+    color: rgb(134, 134, 109);
+
+}
+#article ul{
+background-color: rgb(221, 84, 107)
+}
+#article ul li a{
+    color: white
+}
+#article ul li a:hover{
+    color: bisque
+}
+#articleheading{
+    font-size: 45px;
+}
+#directarticle{
+    border:solid blue;
+    background-color: white;
+    border-radius: 9px;
+padding: 8px;
+
+
+}
+#directarticle:hover{
+    background-color: beige;
+}
+#regtohanumanmandir{
+    border:solid blue;
+    background-color: white;
+    border-radius: 9px;
+padding: 8px;
+margin-right:890px; 
+}
+#linksheading{
+    font-size: 46px;
+    
+}
+#importantlinks{
+    background-color: rgba(240, 42, 164, 0.699);
+    font-size: 21px;
+    margin-bottom: 20px;
+    
+}
+#importantlinks ul li a{
+    text-decoration-color: white;
+    color: rgb(247, 235, 217);
+
+}
+#importantlinks ul li a:hover{
+    color: rgb(12, 6, 17);
+}
+#link1{
+    color: rgb(5, 255, 255);
+    border:solid rgb(0, 255, 221);
+    background-color: white;
+    border-radius: 9px;
+padding: 8px; 
+height: 450px;
+background-image:url(getvaccinated1.jpg);
+background-repeat: repeat-x;
+
+}
+#link1 a{
+    color: rgb(10, 231, 231);
+}
+#link1 a:hover{
+    color: rgb(13, 238, 62); 
+}
+#link2{
+    border:solid blue;
+    color: darkred;
+    border-radius: 9px;
+padding: 8px;
+background-image:url(remdesivir.jpg);
+
+}
+#link3{
+    border:solid blue;
    
+    border-radius: 9px;
+padding: 8px; 
+background-image: url(one.jpg);
+background-size: cover;
 
-  
 
-#toppara{
-display:inline;
+}
+#link3 ul li a{
+    color: black;
+}
+#link3 ul li a:hover{
+    color: rgb(77, 233, 111);
+}
+#link4{
+    border:solid blue;
+    background-color: white;
+    border-radius: 9px;
+padding: 8px;  
+}
+#link5{
+    border:solid blue;
+    background-color: white;
+    border-radius: 9px;
+padding: 8px;  
+
+}
+#link5 i:hover{
+    color: rgb(87, 218, 12);
+}
+.plasma{
+    font-size: 39px;
+    color: rgb(238, 22, 22);
+}
+#aboutplasmatherapy{
+    background-color: rgb(175, 175, 76);
+    font-size: 18px;
+
+}
+#aboutplasmatherapy ul li{
+    background-color: lightgrey;
+    font-size: 26px;
+    color: black;
+}
+#plasmaupdates{
+    background-color: rgb(168, 111, 41);
+    font-size: 19px;
+    padding: 9px;
+    border-radius: 16px;
+    color: white;
+    
+
+}
+
+#latest_updates{
+    color: red;
+text-decoration-line: overline;
+font-size: 34px;
 
 }
 footer{
-    padding: 22px;
+    padding: 21px;
     padding-left: 425px;
+    
 }
