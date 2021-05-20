@@ -171,7 +171,7 @@ margin-right:890px;
     color: rgb(12, 6, 17);
 }
 #link1{
-    color: rgb(5, 255, 255);
+     color: rgb(0, 225, 255);
     border:solid rgb(0, 255, 221);
     background-color: white;
     border-radius: 9px;
@@ -185,7 +185,7 @@ background-repeat: repeat-x;
     color: rgb(10, 231, 231);
 }
 #link1 a:hover{
-    color: rgb(13, 238, 62); 
+    color: rgb(250, 17, 0); 
 }
 #link2{
     border:solid blue;
