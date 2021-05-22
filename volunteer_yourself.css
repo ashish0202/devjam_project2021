@@ -1,0 +1,26 @@
+body{
+    height: 800px;
+    padding: 20px;
+    margin: 0;
+    background-image: url(cdc-mSfnuqwcQ-Q-unsplash.jpg);
+    
+    color: white;
+     margin-top:10px; 
+    text-align: center;
+    border-radius: 12px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#contact{
+    margin-right: 72px;
+}
+#city{
+    margin-right: -4px;
+}
+#email{
+    margin-right: 11px;
+}
+#about{
+margin-left:-500px;
+}
